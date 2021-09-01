@@ -24,7 +24,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Component Version
 - [Laravel Framework](https://laravel.com/docs/8.x/installation) Version 8.55.0
 - [Livewire Version](https://laravel-livewire.com/docs/2.x/installation]) Version 2.5.5
-- [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
+- [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel) Version 2.2.7
 
 ## Installation
 
