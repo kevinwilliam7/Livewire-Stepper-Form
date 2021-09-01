@@ -23,11 +23,52 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Component Version
 - [Laravel Framework](https://laravel.com/docs/8.x/installation) Version 8.55.0
-- [Livewire Version](https://laravel-livewire.com/docs/2.x/installation]) Version 2.5.5
+- [Livewire Version](https://laravel-livewire.com/docs/2.x/installation) Version 2.5.5
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel) Version 2.2.7
 
 ## Installation
-'''composer require livewire/livewire'''
+```composer require livewire/livewire```
+```npm install```
+```npm install -D tailwindcss@latest postcss@latest autoprefixer@latest```
+```npx tailwindcss init```
+
+put this code in the file tailwind.config.js
+```
+module.exports = {
+purge: [],
+purge: [
+ './resources/**/*.blade.php',
+ './resources/**/*.js',
+ './resources/**/*.vue',
+],
+darkMode: false, // or 'media' or 'class'
+theme: {
+  extend: {},
+},
+variants: {
+  extend: {},
+},
+plugins: [],
+}
+```
+
+put this code in the file webpack.mix.js
+```
+mix.js("resources/js/app.js", "public/js")
+.postCss("resources/css/app.css", "public/css", [
+ require("tailwindcss"),
+]);
+```
+
+
+put this code in the file /resources/css/app.css
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+
 
 ## Features
 - [X] Dynamic Depedent Dropdown 
