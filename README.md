@@ -27,6 +27,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel) Version 2.2.7
 
 ## Installation
+'''composer require livewire/livewire'''
 
 ## Features
 - [X] Dynamic Depedent Dropdown 
