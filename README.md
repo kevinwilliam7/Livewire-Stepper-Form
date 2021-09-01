@@ -22,9 +22,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Component Version
-- Laravel Framework[https://laravel.com/docs/8.x/installation] Version 8.55.0
-- Livewire Version[https://laravel-livewire.com/docs/2.x/installation] 2.5.5
-- Tailwind CSS[https://tailwindcss.com/docs/guides/laravel]
+- [Laravel Framework](https://laravel.com/docs/8.x/installation) Version 8.55.0
+- [Livewire Version](https://laravel-livewire.com/docs/2.x/installation]) Version 2.5.5
+- [Tailwind CSS](https://tailwindcss.com/docs/guides/laravel)
 
 ## Installation
 
