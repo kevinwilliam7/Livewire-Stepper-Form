@@ -74,8 +74,6 @@ put this code in the file /resources/css/app.css
 - [X] Dynamic Depedent Dropdown 
 - [X] Simple Upload Image
 
-## Preview
-
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
